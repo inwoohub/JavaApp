@@ -30,7 +30,7 @@ public class MainActivity extends AppCompatActivity {
             public void onClick(View v) {
                 Intent intent=new Intent(MainActivity.this, LoginActivity.class);
                 startActivity(intent);
-                Toast.makeText(getApplicationContext(),"다음 페이지",Toast.LENGTH_SHORT).show(); //팝업
+                Toast.makeText(getApplicationContext(),"다음 페이지",Toast.LENGTH_SHORT).show(); //팝업창
             }
         });
 
