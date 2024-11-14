@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".MainActivity">
+
+
+    <LinearLayout
+        android:layout_width="360dp"
+        android:layout_height="140dp"
+        android:background="#F8FAEC"
+        android:orientation="horizontal"
+        android:padding="16dp"
+        > </LinearLayout>
+
+    <ImageView
+        android:layout_width="360dp"
+        android:layout_height="160dp"
+        android:src="@drawable/face"
+        android:background="#F8FAEC"
+        ></ImageView>
+
+    <TextView
+        android:layout_width="360dp"
+        android:layout_height="50dp"
+        android:background="#F8FAEC"
+        android:text="AI 고민 상담앱"
+        android:textSize="18dp"
+        android:gravity="center"
+        android:textColor="#2DB400"
+        >
+    </TextView>
+
+    <LinearLayout
+        android:layout_width="360dp"
+        android:layout_height="50dp"
+        android:background="#F8FAEC"
+        android:orientation="horizontal"
+        android:padding="16dp">
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="360dp"
+        android:layout_height="240dp"
+        android:background="#F8FAEC"
+        android:orientation="horizontal"
+        android:padding="16dp"
+        android:gravity="center">
+
+        <Button
+            android:id="@+id/btn_main"
+            android:layout_width="300dp"
+            android:layout_height="40dp"
+            android:textSize="18dp"
+            android:background="@drawable/button"
+            android:text="시작하기" />
+     </LinearLayout>
+
+
+
+
+
+</LinearLayout>
